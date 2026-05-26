@@ -16,35 +16,6 @@ Air Quality Chart Tracker is a modern web application that combines interactive 
 - **Geographical Mapping**: View location data on interactive maps with markers
 - **Responsive Dashboard**: Adaptive layout that works seamlessly on different screen sizes
 
-## Architecture
-
-The application is built with a modern, scalable architecture:
-
-- **Frontend**: Blazor with interactive server-side rendering
-- **Visualization**: Blazor components for charts and maps
-- **AI/ML**: Azure OpenAI for intelligent pollution forecasting
-- **Data Management**: JSON-based data storage with fallback mechanisms
-
-### Configure Azure OpenAI
-
-Before running the application, you need to set up Azure OpenAI credentials:
-
-1. Open `appsettings.json`
-2. Update the Azure OpenAI configuration:
-
-```json
-{
-  "AzureOpenAI": {
-    "Endpoint": "https://your-resource.openai.azure.com/",
-    "ApiKey": "your-api-key",
-    "DeploymentId": "your-deployment-model-name"
-  }
-}
-```
-
-> [!NOTE]
-> For local development, you can also use `appsettings.Development.json` to override these settings.
-
 ## Prerequisites
 
 - [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
