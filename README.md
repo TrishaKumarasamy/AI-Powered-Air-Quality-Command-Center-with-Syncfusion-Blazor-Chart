@@ -1,6 +1,6 @@
 # Air Quality Chart Tracker
 
-An AI-powered air quality monitoring dashboard built with Blazor and Charts. This application leverages Azure OpenAI to generate intelligent air pollution predictions, providing real-time insights and forecasts for any location worldwide.
+An AI-powered air quality monitoring dashboard built with [Blazor Charts](https://www.syncfusion.com/blazor-components/blazor-charts). This application leverages Azure OpenAI to generate intelligent air pollution predictions, providing real-time insights and forecasts for any location worldwide.
 
 ## Overview
 
@@ -50,6 +50,6 @@ dotnet run
 
 ## Resources
 
-- [Microsoft Blazor Documentation](https://learn.microsoft.com/en-us/aspnet/core/blazor/)
-- [Azure OpenAI Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference)
-- [Azure Identity Documentation](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/identity-readme)
+- [Blazor Documentation](https://blazor.syncfusion.com/documentation/introduction)
+- [Blazor Charts Documentation](https://blazor.syncfusion.com/documentation/chart/getting-started-with-web-app)
+- [Online Charts Demo](https://blazor.syncfusion.com/demos/chart/overview?theme=fluent2)
